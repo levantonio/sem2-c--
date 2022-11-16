@@ -10,7 +10,7 @@ Console.WriteLine(number);
 
 int ConcaTenet(int num) // мы можем значения передать
 {
-    int number1 = (num / 100) % 10; //number- глобальная переменная, num- локальная переменная
+    int number1 = (num / 100)%10; //number- глобальная переменная, num- локальная переменная
     int number2 = num % 10;
     int result = Convert.ToInt32($"{number1}{number2}");// я не знаю другого метода преобразовать значение
     return result;
@@ -18,3 +18,5 @@ int ConcaTenet(int num) // мы можем значения передать
 
 int res = ConcaTenet(number);
 Console.WriteLine(res);
+
+

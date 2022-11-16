@@ -6,6 +6,7 @@
 // 12 -> 2
 // 85 -> 8
 
+
 int number = new Random().Next(10, 100);
 Console.WriteLine($"Случайное число из отрезка 10 - 99 --> {number}");
 
